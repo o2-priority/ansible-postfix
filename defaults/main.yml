@@ -1,0 +1,5 @@
+---
+postfix_user:
+postfix_group: 
+
+postfix_version: '*'

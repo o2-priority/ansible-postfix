@@ -1,0 +1,7 @@
+---
+
+- name: Install postfix
+  include: "install-{{ ansible_os_family|lower }}.yml"
+
+- name: Start postfix
+  service: name=postfix enabled=yes state=started

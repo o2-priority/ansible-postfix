@@ -1,0 +1,6 @@
+---
+
+- name: Install postfix
+  yum:
+    name:  "postfix-{{ postfix_version }}"
+    state: present
