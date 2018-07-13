@@ -11,8 +11,9 @@ galaxy_info:
     - name: Ubuntu
       versions:
         - trusty
+        - xenial
   categories:
     - postfix
     - mail
 dependencies: []
-  
+
